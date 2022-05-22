@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my site</title>
+    <link rel="stylesheet" href="site.css">
+
+    <style>
+        p{
+            font-size: xx-large;
+            color: black;
+            text-align: center;
+
+        }
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+          }
+          
+          div.gallery:hover {
+            border: 1px solid #777;
+          }
+          
+          div.gallery img {
+            width: 100%;
+            height: auto;
+          }
+         
+          
+    </style>
+</head>
+<body>
+    
+<!-- bar de recherche -->
+<div class="row">
+    <div class="col-md-12">
+        <div class="card card-sm">
+            <form method="get" class="card-bady row no-gutters align-items-center m-2">
+                <div class="col">
+                    <input id="vv" type="search" placeholder="name of produit"
+                        name="item-name" class="form-control form-control-borderless">
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-success">Recherche</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin bar de recherche -->
+
+<!--text-->
+    <H1>welcome in store</H1>
+
+    <br/>
+
+    <p> shose what you want my lady</p>
+<br/>
+
+<!--display images-->
+    <div class="gallery">
+        <a target="_blank" href="111.jpg">
+          <img src="111.jpg" alt="New model" width="600" height="400">
+        </a>
+        <div class="desc">200 Mad</div>
+      </div>
+
+    <div class="gallery">
+        <a target="_blank" href="222.jpg">
+          <img src="222.jpg" alt="New model" width="600" height="400">
+        </a>
+        <br id="desc">150 Mad</div>
+      </div>
+    
+    <div class="gallery"> 
+        <a target="_blank" href="333.jpg">
+            <img src="333.jpg" alt="New model" width="600" height="400">
+        </a>
+        <div id="desc">100 Mad</div>
+    </div>
+
+    
+      
+    
+</body>
+</html>

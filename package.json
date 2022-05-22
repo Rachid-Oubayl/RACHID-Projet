@@ -1,0 +1,16 @@
+{
+  "name": "site-projet",
+  "version": "1.0.0",
+  "description": "to show full project using nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "RACHID OUBAYL",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "ejs": "^2.6.1",
+    "express": "^5.16.3"
+  }
+}
